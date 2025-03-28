@@ -1,0 +1,19 @@
+table{
+width: 100%; /*Hace que la tabla ocupe el ancho de la pagina*/
+margin: 20px  0; /*Margenes de la tabla*/
+}
+body{
+    background-color: rgb(2, 255, 145);
+}
+th td{
+    padding: 10px; /*Relleno dentro de las celdas*/
+    text-align: left;/*Alinea el texto a la izuierda*/
+    border: 3px solid black;
+}
+th{
+    background-color: aquamarine; /*Fondo para el encabezado*/
+    color: rgb(255, 1, 1);
+}
+tr:hover{ 
+    background-color: aliceblue; /*Cambia el fondo de las celdas al pasar el mouse*/
+}
